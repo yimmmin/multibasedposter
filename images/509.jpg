@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>404-页面不存在</title>
+<meta name="keywords" content="咸宁,咸宁市,咸宁新闻网,咸宁论坛,咸宁日报,南鄂晚报,香城都市报,咸宁热点,咸宁资讯，香城泉都,咸宁新闻,桂花之乡,楠竹之乡,温泉之乡,咸安,嘉鱼,赤壁,通城,崇阳,通山" /> 
+<meta name="description" content="咸宁新闻网是咸宁市的重点新闻门户网站，是咸宁市委、市政府的重要舆论工具，网站以"宣传咸宁、传播信息、提供服务"为宗旨，全方位传播咸宁市政治、经济、文化等方面的信息。是展示咸宁形象的窗口、对外宣传的阵地、网上发布新闻的渠道、招商引资的平台。" />
+<meta content="咸宁新闻网" name="author" />
+<meta content="咸宁新闻网 版权所有" name="copyright" />
+<meta content="咸宁新闻网 咸宁权威新闻门户网站，主管：中共咸宁市委宣传部 咸宁市人民政府新闻办公室 主办：咸宁日报 承办：咸宁日报网络传媒中心，市委市政府喉舌，民生舆论权威渠道" name="Abstract" />
+<link href="/templets/css/wnews.css" type="text/css" rel="stylesheet" />
+<style>
+.col01{width:1000px;margin:0 auto;padding-top:20px}
+.Logo,.topic{float:left;padding-right:20px}
+.tips404{background:url(/templets/image/404.png) no-repeat 70px 45px;padding:45px 0 0 510px;height:290px}
+.tips404 h1{font:normal 26px/26px Microsoft Yahei;color:#4c4c4c;padding-bottom:8px}
+.tips404 h1 span{font:normal 16px/24px Arial,Helvetica,sans-serif;color:#aaa}
+.tips404 li{font:normal 14px/24px simsun;color:#aaa;background:url(/templets/image/fanhui.gif) no-repeat 0 9px;padding-left:15px}
+.tips404 h4{padding:25px 0 30px}
+.tips404 h3{font:normal 14px/24px simsun;color:#c5c5c5}
+.tips404 h3 span{background:url(/templets/image/fanhui.gif) no-repeat 0 -26px;padding-left:18px}
+
+/*排行*/
+.col02{width:1100px;background:#f7f7f7;border:1px solid #e8e8e8;margin:0 auto;position:relative; margin-bottom:20px;}
+.box400{width:1060px; padding:18px 20px 0 20px;}
+.box400 h3{font:bold 14px Microsoft Yahei;color:#2b2b2b; border-bottom:1px solid #e5e5e5; height:24px; margin-bottom:10px;}
+.box400 h3 span{ float:left;border-bottom:2px solid #bd0014; height:22px;}
+.fr{float:right;}
+.list li a:link,.list04 li a:visited{ color:#004276;}
+.list li a:hover{ color:#ba2636;}
+.list li span.no1{ font-size:18px; font-weight:bold; float:left; width:16px; height:23px; color:#ba2636; text-align:left; margin-right:10px; font-family:Arial, Helvetica, sans-serif; font-style:oblique;}
+.list li span.no{  font-size:18px; font-weight:bold;float:left; width:16px; height:23px; color:#666666; text-align:left; margin-right:10px; font-family:Arial, Helvetica, sans-serif}
+
+/*页尾*/
+.footer { width: 1000px; margin: 0 auto; }
+.footer .copyright { font-family: Arial; color: #666; height: 28px; line-height: 28px; text-align: center; overflow: hidden; }
+.footer .copyright span { font-family: "宋体"; }
+	</style>
+</head>
+<body>
+<div class="col01 clearfix">
+	<div class="Logo">
+		<a href="http://www.xnnews.com.cn" title="咸宁新闻网"><img src="http://www.xnnews.com.cn/templets/image/index/logo.gif" alt="咸宁新闻网" width="219" height="60" border="0" title="咸宁新闻网" /></a>	</div>
+	<div class="topic">
+	</div>
+</div>
+<div class="col01 clearfix">
+	<div class="tips404">
+		<h1>抱歉，您访问的页面无法找到！<br>
+			<span>Sorry,We cannot find the page you requested.</span></h1>
+		<ul>
+			<li>1、您输入的网址不正确</li>
+			<li>2、页面可能已被删除</li>
+		</ul>
+		<br />
+
+		<h3 class="cGray">
+			<span><a href="#" id="btnBack" title="返回">返回</a></span> |
+			<a href="http://www.xnnews.com.cn" title="咸宁新闻网首页">咸宁新闻网首页</a>
+		</h3>
+	</div>
+</div>
+<div class="col02">
+
+<div class="box400">
+            <h3><span>点击排行</span></h3>
+			<!--<table cellspacing=0 cellpadding=0 width="100%" border=0 class="more">
+						
+				</table> -->
+
+<div id="cyHotnewswall" role="cylabs" data-use="hotnewswall"></div>
+<script type="text/javascript" charset="utf-8" src="http://changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js?appid=cysFTm15u"></script>
+            
+       
+</div>
+</div>
+</div>
+
+<script>
+	document.getElementById("btnBack").onclick = function (event) {
+		if (document.referrer && document.referrer.length > 0) {
+			location.href = document.referrer;
+		} else {
+			history.back();
+		}
+		event.preventDefault();
+	}
+</script>
+<div class="footer mt02">
+  <div class="copyright">
+		<span>咸宁日报网络传媒中心&nbsp;版权所有</span>
+	</div>
+</div>
+</body>
+</html>
